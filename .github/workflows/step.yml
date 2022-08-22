@@ -1,0 +1,14 @@
+name: task
+on: [push] 
+env:
+  DAY_OF_WEEK: Sunday
+jobs:
+  job1:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: step 1
+        env:
+          DAY_OF_WEEK: Monday
+        run: echo "Greetings user. Today is $DAY_OF_WEEK!"   
+      - name: step 2
+        run: echo "Greetings user. Today is $DAY_OF_WEEK!"   
