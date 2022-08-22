@@ -1,7 +1,5 @@
 name: task
 on: [push]
-env:
-  DAY_OF_WEEK: Sunday
 jobs:
   env:
     DAY_OF_WEEK: Monday
