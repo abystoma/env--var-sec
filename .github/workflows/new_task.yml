@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: step 1
-        run: echo "GitHub Actions is a $ci_cd that $github_actions_task"   
+        run: echo "GitHub Actions si a $ci_cd that $github_actions_task"   
   job2:
     env:
       ci_cd: CI/CD
