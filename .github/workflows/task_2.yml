@@ -1,22 +1,17 @@
 name: task
 on: [push]
 
-# GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. 
-
 jobs:
   job1:
-    env:
-      TEST: test
-    runs-on: windows-latest
-    steps: 
-      - name: step 1
-        run: echo "GitHub Actions is a $ci_cd that $github_actions_task"   
-  job2:
     env:
       BUILD: build
     runs-on: windows-latest
     steps: 
       - name: step 1
         env:
+          TEST: test      
+      - name: step 2
+        env:
           DEPLOY: deployment
         run: echo "GitHub Actions is a CI/CD platform that allows you to automate your $env:BUILD $env:TEST and $env:DEPLOY pipeline"   
+
