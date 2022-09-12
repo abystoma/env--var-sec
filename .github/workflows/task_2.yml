@@ -1,4 +1,4 @@
-name: task
+name: Combine the words
 on: [push]
 
 jobs:
