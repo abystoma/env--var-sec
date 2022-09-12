@@ -1,9 +1,9 @@
 name: task
 on: [push]
+   
 env:
-  ci_cd: continuous integration and continuous delivery 
-env:
-  github_actions_task: allows you to automate your build, test, and deployment pipeline 
+  github_actions_task: allows you to automate your build, test, and deployment pipeline \
+  ci_cd: continuous integration and continuous delivery
 jobs:
   job1:
  
