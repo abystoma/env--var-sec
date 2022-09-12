@@ -10,7 +10,7 @@ jobs:
       - name: step 1
         env:
           TEST: test
-        run: echo "GitHub Actions is a CI/CD platform that allows you to automate your $env:BUILD $env:TEST and $env:DEPLOY pipeline"   
+        run: echo "GitHub Actions is a CI/CD platform that allows you to automate your $env:BUILD $env:TEST pipeline"   
       - name: step 2
         env:
           DEPLOY: deployment
