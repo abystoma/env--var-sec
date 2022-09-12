@@ -1,0 +1,11 @@
+name: env_tutorial
+on: [push] 
+
+jobs:
+  job1:
+    runs-on: macos-latest 
+    steps:
+      - name: step 1
+        run: |
+          echo "The job ID is $github_job"   
+          echo "The name of the workflow is $github_workflow" 
