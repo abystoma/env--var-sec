@@ -6,14 +6,14 @@ on: [push]
 jobs:
   job1:
     env:
-      TEST: test,
+      TEST: test
     runs-on: windows-latest
     steps: 
       - name: step 1
         run: echo "GitHub Actions is a $ci_cd that $github_actions_task"   
   job2:
     env:
-      BUILD: build,
+      BUILD: build
     runs-on: windows-latest
     steps: 
       - name: step 1
