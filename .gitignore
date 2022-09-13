@@ -2,3 +2,6 @@
 .github/workflows/step.yml
 .github/workflows/default.yml
 .github/workflows/env.yml
+.github/workflows/task_2.yml
+.github/workflows/new_task.yml
+.github/workflows/new.yml
